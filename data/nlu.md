@@ -40,7 +40,7 @@
 - how much was deposited in my account in the last two weeks?
 - check deposits for last week
 - total deposits over last year
-- how much was deposited in January 
+- how much was deposited in January
 
 ## intent:deny
 - not really
@@ -200,3 +200,8 @@
 - I want to pay Bill
 - pay my friend
 - transfer money
+
+## intent:inform_bot
+- djingo
+- what is djingo
+- tell me more about Djingo
