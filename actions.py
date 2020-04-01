@@ -409,7 +409,8 @@ class ActionAccountBalance(Action):
         return "action_account_balance"
 
     def run(self, dispatcher, tracker, domain):
-        init_account_balance = int(tracker.get_slot("account_balance"))
+        # hard coded balance for workshop day 2
+        init_account_balance = 150
         amount = tracker.get_slot("amount_transferred")
         if amount:
             amount = int(tracker.get_slot("amount_transferred"))
@@ -429,3 +430,31 @@ class ActionAccountBalance(Action):
                 init_account_balance=init_account_balance,
             )
             return []
+
+class ActionSearchTransact(Action):
+    def name(self):
+        return "action_search_transact"
+
+    def run(self, dispatcher, tracker, domain):
+        vendor_name = tracker.get_slot("vendor_name").upper()
+
+        if vendor_name == "STARBUCKS":
+            numtransacts = 3
+            total = 12.50
+        elif vendor_name == "AMAZON":
+            numtransacts = 5
+            total = 44.20
+        elif vendor_name == "TARGET":
+            numtransacts = 2
+            total = 23.75            
+        else:
+            numtransacts = 0
+            total = 0.00
+
+        dispatcher.utter_message(
+            template="utter_found_spend_transactions",
+            numtransacts=numtransacts,
+            total=total,
+            vendor_name=vendor_name,
+        )    
+        return []
