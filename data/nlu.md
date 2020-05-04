@@ -8,6 +8,7 @@
 - yeah
 - yes please
 - yes plz
+- YES
 
 ## intent:ask_transfer_charge
 - Will I be charged for transferring money
@@ -40,7 +41,7 @@
 - how much was deposited in my account in the last two weeks?
 - check deposits for last week
 - total deposits over last year
-- how much was deposited in January 
+- how much was deposited in January
 
 ## intent:deny
 - not really
