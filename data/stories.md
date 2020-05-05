@@ -35,7 +35,6 @@
     - cc_payment_form
     - form{"name": null}
 
-
 ## pay cc happy path no greet
 * pay_cc
     - cc_payment_form
@@ -43,7 +42,6 @@
     - form{"name": null}
 * thankyou
     - utter_noworries
-
 
 ## pay credit card happy path
 * greet
@@ -102,8 +100,6 @@
     - form{"name": "transact_search_form"}
     - form{"name": null}
 
-
-
 ## search transactions switch to transfer money
 * search_transactions OR check_earnings
     - transact_search_form
@@ -144,3 +140,18 @@
     - utter_ask_back_to_transact
 * deny
     - utter_ok
+
+## New Story
+
+* greet
+    - utter_greet
+* transfer_money
+    - transfer_form
+    - form{"name":"transfer_form"}
+    - slot{"requested_slot":"PERSON"}
+* transfer_money
+    - action_default_fallback
+
+## Untitled Story
+* faq
+  - respond_faq

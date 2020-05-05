@@ -19,6 +19,7 @@
 - is there a transfer fee
 - is there a xfer fee
 - how much is the transfer fee
+- charlie
 
 ## intent:check_balance
 - How much money is on my account?
@@ -40,7 +41,7 @@
 - how much was deposited in my account in the last two weeks?
 - check deposits for last week
 - total deposits over last year
-- how much was deposited in January 
+- how much was deposited in January
 
 ## intent:deny
 - not really
@@ -133,6 +134,7 @@
 - for saturday
 - I want to pay the [minimum balance](payment_amount) on my [gringots](credit_card) credit card today
 - today
+- a hundred dollars
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
@@ -200,3 +202,8 @@
 - I want to pay Bill
 - pay my friend
 - transfer money
+- i want to transfer some money
+
+## intent:faq/whatisrasa
+- what is rasa?
+- what is rasa exactly
