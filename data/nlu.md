@@ -30,6 +30,7 @@
 - what's my account balance?
 - what's my account balance
 - What's my account balance?
+- what is my balance
 
 ## intent:check_earnings
 - How much money went into my account last month?
@@ -59,6 +60,8 @@
 - quit
 - stop
 - bye
+- tschö
+- adios
 
 ## intent:greet
 - good morning
@@ -134,6 +137,9 @@
 - for saturday
 - I want to pay the [minimum balance](payment_amount) on my [gringots](credit_card) credit card today
 - today
+- 10000000000
+- 200
+- 300
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
@@ -160,6 +166,8 @@
 - i want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card
 - I want to pay $500 on my [gringots](credit_card) credit card on Sunday
 - I want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card today
+- i want to pay may credit card
+- i want to pay my credt card
 
 ## intent:search_transactions
 - how much did I spend at [Target](vendor_name) this week?
@@ -188,6 +196,9 @@
 - thanks
 - thanks goodbye
 - thank you and good bye
+- thank
+- great, thanks
+- great tanks
 
 ## intent:transfer_money
 - I want to pay John
@@ -203,3 +214,17 @@
 - transfer money
 - I want to transfer $100 to John
 - i want to transfer $400 to Akela
+- give money to Hans and Wurst
+- give money to hans wurst
+- pay money to [iron bank](credit_card)
+- transfer money to [iron bank](credit_card)
+- give money to
+- pay money
+- give money to Max and Moritz
+- give money to Hans Wurst
+- give money to Hans and Klaus
+- give money to hans and wurst
+- give money to Klaus
+- give money to max
+- give money to Max
+- transfer money to Max
